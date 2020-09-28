@@ -1,0 +1,1074 @@
+/* 
+ Name : portfolio project
+ Author : Asish kumar bisoyi
+ Created : 21/sep/2020
+ version :0.0.1
+*/
+
+
+/* tables content */
+
+/*  
+    0.  navbar section
+    1.  Home
+    2.  about
+    3.  Education
+    4.  Experience
+    5.  Skills
+    6.  Projects
+    7.  Contact 
+*/
+
+/* /tables content */
+
+
+/*--------------- navbar section ----------------*/
+#mainNav {
+    padding-top: 25px;
+    background-color: rgb(16, 16, 129) !important;
+}
+
+#mainNav h2 {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.navLink {
+    font-size: 30px;
+}
+
+#navbarResponsive {
+    font-size: 21px;
+}
+
+/*--------------- /navbar section ----------------*/
+
+/* --------------------home---------------------- */
+.home {
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+.myPic {
+    width: 50%;
+    background-color: black;
+    padding-top: 45px;
+}
+
+.myImage {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.basicInfo {
+    width: 50%;
+    margin-top: 80px;
+    padding-top: 130px;
+}
+
+.basicInfo h2 {
+    font-size: 40px;
+    padding-top: 10px;
+    color: yellow;
+}
+
+.basicInfo h4 {
+    font-size: 30px;
+    padding-top: 10px;
+    color: yellow;
+}
+
+.email {
+    font-size: 20px;
+}
+
+.phone {
+    font-size: 20px;
+}
+
+.basicInfo a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.basicInfo a:hover {
+    color: red;
+}
+
+/* --------------------- /home------------------- */
+
+/*------------ About section -------------------*/
+.about {
+    width: 100%;
+    background-color: black;
+    padding-top: 60px;
+}
+
+.about-section {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    color: yellow;
+}
+
+.about-heading {
+    font-size: 23px;
+    color: yellow;
+    padding: 23px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.my-details {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.personal-details {
+    border: 1px solid yellow;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkred;
+}
+
+.personal-details_heading {
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.personal-details ul {
+    padding: 10px;
+}
+
+.personal-details li {
+    padding: 5px;
+}
+
+.personal-details-question {
+    font-weight: bold;
+    color: white;
+}
+
+.personal-details-answer {
+    color: rgb(163, 155, 155);
+}
+
+.extra-curriculum-activities {
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkred;
+    border: 1px solid yellow;
+}
+
+.extra-curriculum-activities_heading {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 13px;
+    text-align: center;
+}
+
+.extra-curriculum-activities_paragraph {
+    padding: 10px;
+    color: rgb(163, 155, 155);
+    font-size: 25px;
+}
+
+.stength {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkred;
+    border: 1px solid yellow;
+}
+
+.stength_heading {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 13px;
+    text-align: center;
+}
+
+.stength ul {
+    color: rgb(163, 155, 155);
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*------------ /About section -------------------*/
+
+/*---------------- education -----------------*/
+.education {
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.collapsive {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.details:active,
+.collapsive:hover {
+    background-color: #555;
+}
+
+.collapsive:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.details:active:after {
+    content: "\2212";
+}
+
+.details {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: black;
+}
+
+.education-heading {
+    color: yellow;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.graduation-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.graduation-question {
+    color: white;
+}
+
+.graduation-answer {
+    color: rgb(163, 155, 155);
+}
+
+.details ul {
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.details li {
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.intermediate {
+    width: 20%;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.intermediate-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.intermediate-question {
+    color: white;
+}
+
+.intermediate-answer {
+    color: rgb(163, 155, 155);
+}
+
+.matric {
+    width: 20%;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.matric-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.matric-question {
+    color: white;
+}
+
+.matric-answer {
+    color: rgb(163, 155, 155);
+}
+
+/*---------------- /education -----------------*/
+
+/*---------------- experience --------------*/
+.experience {
+    width: 100%;
+    background-color: black;
+    padding-top: 30px;
+}
+
+.experience-heading {
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.experience-subheading {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0px 0px 15px;
+}
+
+.experience-list {
+    list-style-type: square;
+    color: white;
+    padding: 20px
+}
+
+.experience-details {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(163, 155, 155);
+}
+
+/*----------------- /experience --------------*/
+
+/*-------------- skills -----------------------*/
+.skills {
+    background-color: black;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.skills-main-heading {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(210, 250, 65);
+    padding: 20px;
+    font-weight: bold;
+}
+
+.skills-heading {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0 0 10px;
+}
+
+.frontend {
+    display: flex;
+}
+
+.frontend-heading,
+.framework-heading,
+.scripting-heading,
+.interface-heading,
+.ides-heading,
+.os-heading {
+    font-size: 20px;
+    color: red;
+    padding: 13px 0 0 20px;
+}
+
+.html {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 0 20px 15px;
+}
+
+.inner-html {
+    width: 90%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.css {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 15px 20px 15px;
+}
+
+.inner-css {
+    width: 70%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.framework {
+    display: flex;
+}
+
+.bootstrap3 {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 0 20px 15px;
+}
+
+.inner-bootstrap3 {
+    width: 30%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.bootstrap4 {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 15px 20px 15px;
+}
+
+.inner-bootstrap4 {
+    width: 40%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.scripting {
+    display: flex;
+}
+
+.javascript {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 0 20px 15px;
+}
+
+.inner-javascript {
+    width: 35%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.jquary {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 15px 20px 15px;
+}
+
+.inner-jquary {
+    width: 32%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.interfaces {
+    display: flex;
+}
+
+.reactjs {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 0 20px 15px;
+}
+
+.inner-reactjs {
+    width: 15%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.mdb {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 15px 20px 15px;
+}
+
+.inner-mdb {
+    width: 10%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.ides {
+    display: flex;
+}
+
+.vscode {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 0 20px 15px;
+}
+
+.inner-vscode {
+    width: 90%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.notepad {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 15px 20px 15px;
+}
+
+.inner-notepad {
+    width: 92%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.window {
+    width: 50%;
+    background-color: rgb(180, 170, 170);
+    margin: 10px 15px 0px 15px;
+}
+
+.inner-window {
+    width: 95%;
+    background-color: red;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+}
+
+/*----------------- /skills --------------------*/
+
+/*----------------- project section------------ */
+.project {
+    width: 100%;
+    padding-top: 50px;
+    background-color: black;
+}
+
+.project-heading {
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.project-details-heading {
+    width: 20%;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.list li {
+    padding: 5px;
+    color: white;
+    margin-left: 5px;
+}
+
+.list {
+    list-style-type: square;
+}
+
+.project-details_question {
+    font-size: 20px;
+    color: white;
+}
+
+.project-details_answer {
+    color: rgb(163, 155, 155);
+    font-size: 20px;
+}
+
+.project-details_answer a {
+    text-decoration: none;
+    color: rgb(163, 155, 155);
+}
+
+.abstract-heading {
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.abstract-details {
+    color: rgb(163, 155, 155);
+    font-size: 20px;
+    padding: 15px;
+}
+
+.roles-heading {
+    width: 25%;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.roles-list {
+    list-style-type: square;
+    color: white;
+    padding-left: 20px;
+}
+
+.roles-details {
+    font-size: 20px;
+    color: rgb(163, 155, 155);
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/*----------------- /project section------------ */
+
+/*-------------- contact -----------------------*/
+.contact {
+    background-color: black;
+    padding: 20px;
+}
+
+.contact-information {
+    display: flex;
+}
+
+.contact-heading {
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-details {
+    width: 50%;
+    padding-top: 20px;
+}
+
+.contact-details li {
+    padding: 10px;
+}
+
+#icons {
+    color: orangered;
+    font-size: 30px;
+}
+
+.contact-details_question {
+    color: orangered;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.contact-details_answer {
+    color: rgb(180, 170, 170);
+    font-size: 30px;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: white;
+}
+
+.form {
+    width: 50%;
+    padding-top: 40px;
+    margin-left: 70px;
+}
+
+.form-name {
+    width: 56%;
+    padding: 10px;
+    background-color: #e2dada;
+}
+
+.form-email {
+    width: 56%;
+    padding: 10px;
+    background-color: #e2dada;
+    margin-top: 20px;
+}
+
+.form-subject {
+    width: 56%;
+    padding: 10px;
+    background-color: #e2dada;
+    margin-top: 20px;
+}
+
+.form-message {
+    width: 56%;
+    padding: 11px;
+    background-color: #e2dada;
+    margin-top: 20px;
+}
+
+.submit {
+    width: 100px;
+    color: white;
+    padding: 10px;
+    background-color: green;
+    margin-top: 10px;
+    border: none;
+}
+
+/*-------------- /contact -----------------------*/
+
+/*----------------- footer --------------------*/
+.footer-details {
+    background-color: rgb(16, 16, 129);
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*------------------/footer -------------------*/
+
+/*---------------- media quary ---------------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home {
+        display: block;
+    }
+
+    .myPic {
+        width: 100%;
+    }
+
+    .myImage {
+        margin: 44px 7px 0 40px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .basicInfo {
+        width: 87%;
+        padding-top: 5px;
+        padding-left: 75px;
+    }
+
+    .my-details {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .extra-curriculum-activities {
+        width: 300px;
+    }
+
+    .frontend,
+    .framework,
+    .scripting,
+    .interfaces,
+    .ides,
+    .os {
+        display: inline-block;
+    }
+
+    .html,
+    .css,
+    .bootstrap3,
+    .bootstrap4,
+    .javascript,
+    .jquary,
+    .reactjs,
+    .mdb,
+    .vscode,
+    .notepad,
+    .window {
+        width: 190px;
+    }
+
+    .inner-vscode {
+        width: 88%;
+    }
+
+    .inner-notepad {
+        width: 90%;
+    }
+
+    .inner-window {
+        width: 92%;
+    }
+
+    .roles-heading {
+        width: 57%;
+    }
+
+    .contact-information {
+        display: inline-block;
+    }
+
+    .contact-details {
+        width: 100%;
+    }
+
+    .contact-details_question {
+        font-size: 25px;
+    }
+
+    .contact-details_answer {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .form-name,
+    .form-email,
+    .form-subject,
+    .form-message {
+        width: 80%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .home {
+        display: inline-block;
+    }
+
+    .myPic {
+        width: 100%;
+    }
+
+    .myImage {
+        margin-left: 140px;
+    }
+
+    .basicInfo {
+        width: 100%;
+        padding-top: 2px;
+        margin-left: 125px;
+        margin-top: 30px;
+    }
+
+    .my-details {
+        display: inline-block;
+        margin-left: 165px;
+    }
+
+    .roles-heading {
+        width: 50%;
+    }
+
+    .contact-information {
+        display: inline-block;
+    }
+
+    .contact-details {
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    .contact-details_question {
+        font-size: 25px;
+    }
+
+    .contact-details_answer {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .form {
+        margin-left: 130px;
+        width: 70%;
+    }
+
+    .form-name,
+    .form-email,
+    .form-subject,
+    .form-message {
+        width: 70%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .home {
+        display: flex;
+    }
+
+    .myPic {
+        width: 50%;
+        padding-top: 50px;
+    }
+
+    .myImage {
+        margin-left: 10px;
+    }
+
+    .basicInfo {
+        width: 50%;
+        padding-top: 168px;
+        margin-left: 50px;
+    }
+
+    .my-details {
+        padding-left: 105px;
+    }
+
+    .roles-heading {
+        width: 33%;
+    }
+
+    .contact-information {
+        margin-left: 50px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .home {
+        display: flex;
+    }
+
+    .myPic {
+        width: 50%;
+    }
+
+    .myImage {
+        margin-left: 100px;
+    }
+
+    .basicInfo {
+        width: 50%;
+        padding-top: 90px;
+        margin-top: 130px;
+    }
+
+    .my-details {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        margin-left: 8px;
+    }
+
+    .roles-heading {
+        width: 25%;
+    }
+
+    .contact-details {
+        margin-left: 100px;
+    }
+
+    .form {
+        margin-left: 100px;
+        padding-left: 100px;
+    }
+
+    .form-name,
+    .form-email,
+    .form-subject {
+        height: 40px;
+    }
+
+    .form-message {
+        height: 70px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .roles-heading {
+        width: 24%;
+    }
+
+    .contact-information {
+        display: flex;
+    }
+
+    .contact-details {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .form-name,
+    .form-email,
+    .form-subject {
+        height: 20px;
+    }
+
+    .form-message {
+        height: 50px;
+    }
+}
